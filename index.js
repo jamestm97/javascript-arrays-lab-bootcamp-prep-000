@@ -24,3 +24,8 @@ function appendKitten(name) {
   var lastKitten = [...kittens, name];
   return lastKitten;
 }
+
+function prependKitten(name) {
+  var firstKitten = [name, ...kittens];
+  return firstKitten;
+}
